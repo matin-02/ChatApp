@@ -2,9 +2,9 @@
 .message-container {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Increase the space between messages */
+    gap: 20px; 
     padding: 15px;
-    max-height: 80vh; /* Set a max height for scrolling messages */
+    max-height: 80vh; 
     overflow-y: auto;
     border-radius: 10px;
     background-color: #f7f7f7;
@@ -14,7 +14,7 @@
   /* Individual Message Styles */
   .message {
     display: inline-block;
-    max-width: 70%; /* Limit message width */
+    max-width: 70%; 
     padding: 12px 20px;
     border-radius: 15px;
     font-size: 16px;
@@ -29,14 +29,14 @@
   }
   
   .sent {
-    background-color: #4CAF50; /* Green for sent messages */
+    background-color: #4CAF50; 
     color: white;
     align-self: flex-end;
     animation: fadeInFromRight 0.6s ease;
   }
   
   .received {
-    background-color: #f1f1f1; /* Light gray for received messages */
+    background-color: #f1f1f1; 
     color: #333;
     align-self: flex-start;
     animation: fadeInFromLeft 0.6s ease;

@@ -65,7 +65,7 @@ function App() {
             placeholder="Your Name"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
-            onKeyPress={handleKeyPress} // Trigger handleRegister on Enter key press
+            onKeyPress={handleKeyPress} 
           />
           <button onClick={handleRegister}>Join Chat</button>
         </div>
