@@ -1,6 +1,6 @@
 import { io } from 'socket.io-client';
 
-const socket = io("https://chatapp-7t52.onrender.com");
+const socket = io('http://localhost:3000');
 
 
 export default socket;
